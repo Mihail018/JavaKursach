@@ -1,0 +1,34 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>ClientServlet</servlet-name>
+    <servlet-class>ClientServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClientServlet</servlet-name>
+    <url-pattern>/display</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>addAgreement.jsp</welcome-file>
+    <welcome-file>updateAgreement.jsp</welcome-file>
+    <welcome-file>deleteAgreement.jsp</welcome-file>
+    <welcome-file>checkAgreement.jsp</welcome-file>
+    <welcome-file>addContragent.jsp</welcome-file>
+    <welcome-file>updateContragent.jsp</welcome-file>
+    <welcome-file>deleteContragent.jsp</welcome-file>
+    <welcome-file>checkContragent.jsp</welcome-file>
+    <welcome-file>addProvider.jsp</welcome-file>
+    <welcome-file>updateProvider.jsp</welcome-file>
+    <welcome-file>deleteProvider.jsp</welcome-file>
+    <welcome-file>checkProvider.jsp</welcome-file>
+    <welcome-file>message.jsp</welcome-file>
+</welcome-file-list>
+
+</web-app>
